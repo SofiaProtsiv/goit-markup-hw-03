@@ -51,8 +51,7 @@ p {
 }
 
 .hidden {
-  font-size: 1px;
-  line-height: 0;
+  font-size: 0px;
   visibility: hidden;
 }
 .flex {
@@ -321,8 +320,7 @@ img {
 }
 .cardset-item {
   width: 370px;
-  height: 404px;
-  flex-basis: calc(100% / 3 - 30px);
+  flex-basis: calc(100% -30px / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
